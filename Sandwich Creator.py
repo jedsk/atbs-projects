@@ -1,5 +1,5 @@
 #! python3
-### Project: Sandwich Creator
+### Chapter 8 Project: Sandwich Creator
 
 
 import pyinputplus as pyip
