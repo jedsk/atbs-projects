@@ -1,4 +1,5 @@
-### Project - Strong Password Detection
+### Chapter 7 Project: Strong Password Detection
+
 #>= 8 characters, Upper and lower, and has >= 1 digit
 
 import re
