@@ -1,6 +1,4 @@
-### Project: Mad Libs
-
-### Chapter 9: Mad Libs Project
+### Chapter 9 Project: Mad Libs
 
 import re
 
