@@ -1,4 +1,4 @@
-### Regex Search
+### Chapter 9 Project: Regex Search
 
 from pathlib import Path
 import os, re
