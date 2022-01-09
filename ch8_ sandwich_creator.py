@@ -1,4 +1,3 @@
-#! python3
 ### Chapter 8 Project: Sandwich Creator
 
 
