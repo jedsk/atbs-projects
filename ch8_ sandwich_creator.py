@@ -1,6 +1,5 @@
 ### Chapter 8 Project: Sandwich Creator
 
-
 import pyinputplus as pyip
 import time
 
@@ -122,6 +121,4 @@ while True:
         totalmemo = 'Total: '+'${:,.2f}'.format(total)
         print(totalmemo.rjust(b))
         print('\nThank you!')
-        break    
-          
-              
+        break
