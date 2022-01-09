@@ -9,8 +9,6 @@ lower_case = re.compile(r'[a-z]')
 upper_case = re.compile(r'[A-Z]')
 digit = re.compile(r'\d')
                    
-
-
 Pass = False
 
 while Pass == False:
@@ -40,5 +38,3 @@ while Pass == False:
         
     else: 
         print('\n---Please Try Again---\n')
-           
-   
