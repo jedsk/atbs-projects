@@ -17,3 +17,7 @@
 
   - [Mad Libs](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch9_mad_libs.py)
   - [Regex Search](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch9_regex_search.py)
+
+- **Chapter 10 – Organizing Files**
+
+  - [Selective Copy](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch10_selective_copy.py)
