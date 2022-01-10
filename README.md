@@ -21,3 +21,5 @@
 - **Chapter 10 – Organizing Files**
 
   - [Selective Copy](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch10_selective_copy.py)
+  - [Deleting Unneeded Files](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch10_deleting_unneeded_files.py)
+
