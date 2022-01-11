@@ -85,4 +85,4 @@ def renameFiles(folder, prefixRegex):
             
     print('\nRenaming files complete.')
  
-renameFiles('C:\\Users\\csakp\\JupyterFiles', prefixRegex)
+renameFiles('absolute path directory', prefixRegex)
