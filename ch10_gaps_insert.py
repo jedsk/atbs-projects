@@ -9,6 +9,7 @@
 import re, os, shutil
 from pathlib import Path
 
+#searches for files with spam prefix
 prefixRegex = re.compile(r'(^spam)(0*)(\d+)(.[a-zA-Z]+)*')
 
 def skipFiles(folder, filetoSkip): 
