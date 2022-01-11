@@ -44,7 +44,7 @@ def renameFiles(folder, prefixRegex):
         
         if oldnamePath != newnamePath:
             if newName in os.listdir(folder):
-                print(match+' not renamed')
+                print(f'{match} not renamed')
                 appendfile.append(match)
                 continue
                 
@@ -63,7 +63,7 @@ def renameFiles(folder, prefixRegex):
         if count == 0:
             count += int(mo.group(3))
             firstcount += int(mo.group(3))
-            print('Renaming files starting at ' + match)
+            print(f'Renaming files starting at {match}')
             continue
             
         count += 1
@@ -75,7 +75,7 @@ def renameFiles(folder, prefixRegex):
                 numstr = '0' + numstr
             
             newfilename = mo.group(1) + numstr + mo.group(4)
-            print('Renaming ' + match + ' to '+ newfilename)
+            print(f'Renaming {match} to {newfilename}')
             
             oldnamePath = Path(folder, match)
             newnamePath = Path(folder, newfilename)
@@ -83,4 +83,4 @@ def renameFiles(folder, prefixRegex):
             
     print('\nRenaming files complete.')
  
-renameFiles('insert directory here', prefixRegex)
+renameFiles('C:\\Users\\csakp\\JupyterFiles', prefixRegex)
