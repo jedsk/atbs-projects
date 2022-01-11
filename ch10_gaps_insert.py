@@ -13,7 +13,7 @@ prefixRegex = re.compile(r'(^spam)(0*)(\d+)(.[a-zA-Z]+)*')
 
 def skipFiles(folder, filetoSkip): 
     
-    print('Creating gap at postion: ' + str(filetoSkip) ,'\n')
+    print(f'Creating gap at postion: {filetoSkip}\n')
     
     folder = Path(folder)
     matchedlist = []
@@ -43,7 +43,7 @@ def skipFiles(folder, filetoSkip):
             numstr = numstr[1:]
         
         newfilename = mo.group(1) + numstr + mo.group(4)
-        print('Renaming ' + match + ' to '+ newfilename)
+        print(f'Renaming {match} to {newfilename}')
         
         oldnamePath = Path(folder, match)
         newnamePath = Path(folder, newfilename)
@@ -52,4 +52,4 @@ def skipFiles(folder, filetoSkip):
     print('\nGap creation complete.')
     
     
-skipFiles('insert directory here', int(gap desired))
+skipFiles('absolute path of directory', 4)
