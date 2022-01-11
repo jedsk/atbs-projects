@@ -20,6 +20,7 @@ def renameFiles(folder, prefixRegex):
     for match in os.listdir(folder):
                             
         mo = prefixRegex.search(match)
+        
         if mo == None:
             continue
             
@@ -39,6 +40,7 @@ def renameFiles(folder, prefixRegex):
             newName = mo.group(1) + numstr + extension
         else:
             newName = mo.group(1) + numstr + mo.group(4)
+            
         oldnamePath = Path(folder, match)
         newnamePath = Path(folder, newName)
         
@@ -54,6 +56,7 @@ def renameFiles(folder, prefixRegex):
 
         
     print('\nOrdering files in numerical order...\n')
+    
     firstcount = int()
     count = int()
     
@@ -65,10 +68,9 @@ def renameFiles(folder, prefixRegex):
             firstcount += int(mo.group(3))
             print(f'Renaming files starting at {match}')
             continue
-            
         count += 1
+        
         if int(mo.group(3)) != count:
-                  
             numstr = (''.join(mo.group(2) + str(count)))
 
             while len(numstr) < 3:
