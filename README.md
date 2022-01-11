@@ -24,3 +24,6 @@
   - [Deleting Unneeded Files](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch10_deleting_unneeded_files.py)
   - [Filling in the Gaps](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch10_gaps_filling.py)
   - [Filling in the Gaps - Insert Gaps](https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch10_gaps_insert.py)
+
+- **Chapter 11 – Debugging**
+  - [Debugging Coin Toss]https://github.com/jedsk/automate_the_boring_stuff_projects/blob/main/ch11_coin_toss_debug.py
